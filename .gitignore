@@ -1,3 +1,33 @@
 __pycache__/
 *.pyc
 .DS_Store
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+*.tsbuildinfo
+next-env.d.ts
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+
+# lock files (keep one based on package manager used)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
